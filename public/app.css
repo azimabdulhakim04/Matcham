@@ -439,9 +439,21 @@ font-size:18px;
 
 /* Mobile */
 
-@media(max-width:600px){
+@media(max-width:480px){
 
+    .subtitle {
+        font-size: 1rem;
+    }
 
+    .event-teaser {
+        font-size: 0.85rem;
+        padding: 8px 16px;
+    }
+
+    .intro-text {
+        font-size: 0.9rem;
+        margin-top: -15px;
+    }
 h1{
 
 font-size:40px;
