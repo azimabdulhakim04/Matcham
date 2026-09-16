@@ -11,6 +11,39 @@ body {
     min-height: 100vh;
 }
 
+/* ---------- New elements ---------- */
+.subtitle {
+    font-size: 1.1rem;
+    color: #4a7c3c;
+    margin-bottom: 25px;
+    max-width: 500px;
+}
+
+.event-teaser {
+    font-size: 0.95rem;
+    color: #5c7a52;
+    margin: 20px 0 30px;
+    background-color: #e4f0dc;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.intro-text {
+    text-align: center;
+    color: #5c7a52;
+    max-width: 600px;
+    margin: -30px auto 50px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: #7a9a6f;
+    font-size: 0.9rem;
+}
 /* ---------- Page 1 ---------- */
 .container {
     display: flex;
