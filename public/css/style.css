@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f9f0;
+    color: #2f4f2f;
+    min-height: 100vh;
+}
+
+/* ---------- Page 1 ---------- */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.big-question {
+    font-size: 3rem;
+    color: #4a7c3c;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-yes {
+    background-color: #4a7c3c;
+    color: white;
+}
+
+.btn-maybe {
+    background-color: #a3c586;
+    color: #2f4f2f;
+}
+
+.btn-no {
+    background-color: #d9e8cf;
+    color: #2f4f2f;
+    position: relative;
+}
+
+/* ---------- Page 2 ---------- */
+.details-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.details-container h1 {
+    text-align: center;
+    color: #4a7c3c;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.info-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-image {
+    flex: 1;
+    min-width: 250px;
+}
+
+.info-image img {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #d9e8cf;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.info-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.info-text h2 {
+    color: #4a7c3c;
+    margin-bottom: 15px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4a7c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
