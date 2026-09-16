@@ -9,27 +9,27 @@
 
 <div class="details-container">
 
-    <h1>Matcha Fest Details 🍵</h1>
+    <h1>MatchaFest Doomsday 🍵</h1>
 
     <section class="info-section">
         <div class="info-image">
             <!-- put a location image here later -->
-            <img src="/images/location-placeholder.jpg" alt="Location">
+            <img src="/images/matcha copy.png" alt="Ombak, KLCC">
         </div>
         <div class="info-text">
-            <h2>📍 Location</h2>
-            <p>Put the venue name and address here.</p>
+            <h2>📍 Ombak, KLCC</h2>
+            <p>Concourse Level, 12 pm - 10 pm</p>
         </div>
     </section>
 
     <section class="info-section reverse">
         <div class="info-image">
             <!-- put a schedule/event image here later -->
-            <img src="/images/schedule-placeholder.jpg" alt="Schedule">
+            <img src="/images/schedule copy.png" alt="Schedule">
         </div>
         <div class="info-text">
-            <h2>🗓️ Schedule</h2>
-            <p>Put the date, time, and event flow here.</p>
+            <h2>🗓️ Buat ape je?</h2>
+            <p>For reference onleh, completely flexible (aku malas pikiaq actually)</p>
         </div>
     </section>
 

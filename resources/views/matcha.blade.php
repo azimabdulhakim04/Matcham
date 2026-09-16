@@ -9,12 +9,12 @@
 
 <div class="container">
 
-    <h1 class="big-question">Do u wanna go? 🍵</h1>
+    <h1 class="big-question">Matcha Fest, 19, Saturday</h1>
 
     <div class="buttons">
-        <button id="yesBtn" class="btn btn-yes">YES</button>
-        <button id="noBtn" class="btn btn-no">NO</button>
-        <button id="maybeBtn" class="btn btn-maybe">MAYBE</button>
+        <button id="yesBtn" class="btn btn-yes">Yessir</button>
+        <button id="noBtn" class="btn btn-no">Hell na</button>
+        <button id="maybeBtn" class="btn btn-maybe">Im gay</button>
     </div>
 
 </div>
